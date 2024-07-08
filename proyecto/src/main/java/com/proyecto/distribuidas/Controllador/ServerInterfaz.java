@@ -8,7 +8,7 @@ public interface ServerInterfaz {
     public ServerSocket server = null;
 
     public void PedirCategorias();
-    public void PedirPreguntas(String categoria);
+    public String[][] PedirPreguntas(String categoria);
     public void IniciarServidor();
     public void DetenerServidor();
 
